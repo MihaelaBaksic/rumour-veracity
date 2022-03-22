@@ -11,7 +11,7 @@ Entry points:
 
 
 Additional works:
- > [Joint Rumour Stance and Veracity][5]
+ > [Joint Rumour Stance and Veracity][5] \
  > [Veracity assessment of online data][6]
 
 [1]:https://competitions.codalab.org/competitions/19938
