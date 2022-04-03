@@ -16,7 +16,8 @@ Additional works:
 
 Previous submissions:
  > [1][7]\
- > [2][8]
+ > [2][8]\
+ > [3][9]
 
 [1]:https://competitions.codalab.org/competitions/19938
 [2]:https://figshare.com/articles/dataset/RumourEval_2019_data/8845580
@@ -26,6 +27,7 @@ Previous submissions:
 [6]:https://www.sciencedirect.com/science/article/pii/S0167923619301617
 [7]:https://www.acl-bg.org/proceedings/2017/RANLP%202017/pdf/RANLP005.pdf
 [8]:https://arxiv.org/pdf/1704.07221.pdf
+[9]:https://aclanthology.org/S17-2086.pdf
 
 
 
@@ -63,6 +65,7 @@ Features: \
 * count of standard negative connotation words (word set to be defined)
 * count of standard positive connotation words (word set to be defined)
 * similarity to the source post
+* capitalization
 
 #### Evaluation method: official competition evaluation metric, microaveraged accuracy, statistical significance testing, comparison to baseline and previously submitted work
 
