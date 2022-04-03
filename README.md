@@ -16,7 +16,7 @@ Additional works:
 
 Previous submissions:
  > [1][7]\
- > [2][8]\
+ > [2][8]
 
 [1]:https://competitions.codalab.org/competitions/19938
 [2]:https://figshare.com/articles/dataset/RumourEval_2019_data/8845580
