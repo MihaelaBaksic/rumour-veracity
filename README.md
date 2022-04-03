@@ -46,8 +46,7 @@ Tools: spaCy
 
 * tokenization
 * stopword removal
-* 
-* 
+* morphological analysis
 
 ## Subtask A
 
