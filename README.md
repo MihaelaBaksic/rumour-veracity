@@ -74,7 +74,7 @@ Possible problems:
 Possible solutions:
 * First classify posts to comments and non-comments, then do the SDQ classification on non-comments, as suggested in previous works
 
-Possible models: multiclass SVM, multinomial logistic regression
+Possible models: multiclass SVM, multinomial logistic regression  \
 Choosing a best performing model vs. majority voting
 
 ## Subtask B
