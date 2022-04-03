@@ -34,10 +34,10 @@ Previous submissions:
 # Solution draft
 
 #### Data format
-* user_information (that can be extracted from data)
+* user_metadata (that can be extracted from data)
 * post_id
 * post_content
-* parent_post_id (null for source posts)+
+* parent_post_id (null for source posts)
 
 The rest should be discarded.
 
@@ -64,15 +64,18 @@ Features: \
 * exclamation mark present
 * count of standard negative connotation words (word set to be defined)
 * count of standard positive connotation words (word set to be defined)
-* similarity to the source post
+* similarity to the source post (cosine)
 * capitalization
 
-#### Evaluation method: official competition evaluation metric, microaveraged accuracy, statistical significance testing, comparison to baseline and previously submitted work
+#### Evaluation method: model selectionofficial competition evaluation metric, microaveraged accuracy, statistical significance testing, comparison to baseline and previously submitted work
 
 Possible problems:
 * Distribution of classes is skewed towards comments \
 Possible solutions:
 * First classify posts to comments and non-comments, then do the SDQ classification on non-comments, as suggested in previous works
+
+Possible models: multiclass SVM, multinomial logistic regression
+Choosing a best performing model vs. majority voting
 
 ## Subtask B
 
