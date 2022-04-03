@@ -27,7 +27,7 @@ Previous submissions:
 [7]:https://www.acl-bg.org/proceedings/2017/RANLP%202017/pdf/RANLP005.pdf
 [8]:https://arxiv.org/pdf/1704.07221.pdf
 
-\
+
 
 # Solution draft
 
