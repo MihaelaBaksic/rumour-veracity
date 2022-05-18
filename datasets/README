@@ -1,0 +1,62 @@
+# RumourEval 2019 Data
+
+This is the data for the competition. It is to be used responsibly.
+
+* Training/development data with key: rumoureval-2019-training-data.zip
+* Scoring script for home use: home_scorer_macro.py
+* Test data: rumoureval-2019-test-data.zip
+* Gold test key: final-eval-key.json
+
+## Distribution and license
+
+This data is distributed as CC-BY (see LICENSE file) and under the Twitter license.
+
+If you use the data, you must cite the following work:
+
+Genevieve Gorrell, Ahmet Aker, Kalina Bontcheva, Elena Kochkina, Maria Liakata, Arkaitz Zubiaga, Leon Derczynski (2019). SemEval-2019 Task 7: RumourEval, Determining Rumour Veracity and Support for Rumours. Proceedings of the 13th International Workshop on Semantic Evaluation, ACL.
+
+BibTeX follows at the end of this readme.
+
+## Description
+
+The trial data contains the full English Twitter and Reddit training/dev set.
+
+In both Twitter and Reddit cases, the original post and each comment post are provided separately, with a key indicating the tree structure of the comment. Reddit JSON has a nested format, but comments have been separated out to mimic the structure of the Twitter data as closely as possible. The original raw JSON is also provided.
+
+You can use the scorer over the development data to validate your system. Final submissions are to be made on the CodaLab site.
+
+## Source data
+
+The bulk of the dataset used for training and development testing is from this PLoS article:
+
+Zubiaga A, Liakata M, Procter R, Wong Sak Hoi G, Tolmie P (2016) Analysing How People Orient to and Spread Rumours in Social Media by Looking at Conversational Threads. PLoS ONE 11(3): e0150989. doi:10.1371/journal.pone.0150989
+The original data can be found here:
+
+PHEME rumour scheme dataset: journalism use case, version 2
+Additional Twitter and Reddit data has been added using the same methodology.
+
+For task B, the following wikipedia dump may be used:
+
+20160901: https://archive.org/details/enwiki-20160901/
+
+## Reference
+
+BibTeX for reference for CC-BY Attribution:
+
+@inproceedings{gorrell-etal-2019-semeval,
+    title = "{S}em{E}val-2019 Task 7: {R}umour{E}val, {D}etermining Rumour Veracity and Support for Rumours",
+    author = "Gorrell, Genevieve  and
+      Aker, Ahmet  and
+      Bontcheva, Kalina and
+      Kochkina, Elena and
+      Liakata, Maria and
+      Zubiaga, Arkaitz and
+      Derczynski, Leon",
+    booktitle = "Proceedings of the 13th International Workshop on Semantic Evaluation",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/S19-2147",
+    pages = "845--854"
+}
