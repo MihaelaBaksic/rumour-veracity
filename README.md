@@ -46,7 +46,8 @@ Tools: spaCy
 
 * tokenization
 * stopword removal
-* morphological analysis
+* removal of special characters
+* replacing numbers with #
 
 ## Subtask A
 
@@ -65,6 +66,7 @@ Features: \
 * count of standard positive connotation words (word set to be defined)
 * similarity to the source post (cosine)
 * capitalization
+* numbers present (#)
 
 #### Evaluation method: model selectionofficial competition evaluation metric, microaveraged accuracy, statistical significance testing, comparison to baseline and previously submitted work
 
