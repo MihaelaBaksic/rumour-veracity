@@ -45,8 +45,9 @@ The rest should be discarded.
 Tools: spaCy
 
 * tokenization
+* decapitalization
 * stopword removal
-* removal of special characters
+* removal of special characters (regex) - leave punctuation
 * replacing numbers with #
 
 ## Subtask A
