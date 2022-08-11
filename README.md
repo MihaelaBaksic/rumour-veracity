@@ -10,7 +10,7 @@ Entry points:
  > [SemEval-2017 Determining rumour veracity and support for rumour][4]
 
 
-Additional works:
+Additional work:
  > [Joint Rumour Stance and Veracity][5] \
  > [Veracity assessment of online data][6]
 
